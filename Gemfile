@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+require 'rubygems' 
+require 'bundler/setup'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
 gem 'json'
@@ -25,6 +26,7 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'pg'
   gem 'newrelic_rpm'
   gem 'awesome_print'
 
