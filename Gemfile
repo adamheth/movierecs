@@ -1,14 +1,11 @@
 source 'https://rubygems.org'
 
-require 'rubygems' 
-require 'bundler/setup'
-
-# Bundle edge Rails instead:
-gem 'rails', :git => 'git://github.com/rails/rails.git'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.0.0'
 
 gem 'pg'
 gem 'json'
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.6.0'
 gem 'fandango'
 
 # Gems used only for assets and not required
