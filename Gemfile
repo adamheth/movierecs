@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem 'pg'
 gem 'json'
 gem "nokogiri", ">= 1.6.0"
 gem 'fandango'
@@ -25,7 +24,7 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'pg'
+  gem "pg", ">= 0.17.0"
   gem 'newrelic_rpm'
   gem 'awesome_print'
 

@@ -217,7 +217,7 @@ DEPENDENCIES
   launchy
   newrelic_rpm
   nokogiri (>= 1.6.0)
-  pg
+  pg (>= 0.17.0)
   rails (= 4.0.0)
   railties (>= 4.0.0)
   rb-fsevent
